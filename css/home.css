@@ -1,0 +1,29 @@
+form {
+    border: 3px solid #f1f1f1;
+}
+
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0px;
+    margin: 20x 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+}

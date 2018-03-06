@@ -1,0 +1,85 @@
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+body{margin:20;padding:20;}
+#contact {
+  height: auto;
+  background: #ececec;
+  position:absolute;
+  right:40;
+  bottom:0;
+  width:150px;
+}
+#contact header {
+    padding: 10px;
+    background: #333;
+    color: #FFF;
+}
+#contact main { 
+    padding:0px
+}
+#chat {
+    position: fixed;
+    bottom: 0;
+    left: 40;
+    right: 100px;
+    height: auto;
+}
+#chat .user {
+    border: 1px solid #333;
+    background: #fff;
+    width: 200px;
+    height: 100%;
+    float: left;
+    margin-right: 5px;
+}
+.user header {
+    position: relative;
+    background: #4b67a8;
+    border: 1px solid #2e4588;
+}
+.user header .status {
+    position: absolute;
+    top: 36%;
+    left: 10px;
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 4px; 
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: green;
+}
+.user header .header-text {
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    margin: 0 0 0 15px;
+    font-size: 12px;
+    text-shadow: 0 -1px rgba(0, 0, 0, .25);
+}
+.user header .close { 
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    color: #fff;
+}
+.message-area {
+    background: #fff;
+    height: 120px;
+    padding: 5px;
+    color: #333;
+    overflow: scroll;
+}
+.user .input-area {
+    border-top: 1px solid #333;
+    padding: 3px;
+}
+.user .input-area input {
+    padding: 5px;
+    width: 100%;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
